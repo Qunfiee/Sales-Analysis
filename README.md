@@ -7,6 +7,10 @@
 **Excel Workbook**- Data exported from Kaggle.com
 
 ## Data Modelling
+
+
+![](DataModel.png)
+
 Power BI automatically established connections among the relevant tables, leading to the creation of a star schema model. The **Sales_Data** serves as the central fact table in this model, comprising 15,001 rows and 11 columns. The remaining tables, such as Sales_Channel, Sales_Product, Sales_Product_Sub_Cat, Sales_Promotion, and Sales_State, function as dimension tables. These dimension tables are linked to the "Sales_Data" table through shared columns.
 
 ## Data Visualization
